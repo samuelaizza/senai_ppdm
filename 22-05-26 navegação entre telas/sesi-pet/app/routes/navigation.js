@@ -1,11 +1,12 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createDrawerNavigator } from "@react-navigation/drawer";
+import { createStackNavigator } from "@react-navigation/stack";
 
 //páginas
 
 //navegadores
-const stack = createNativeStackNavigator();
+const stack = createStackNavigator();
 const tab = createBottomTabNavigator();
 const drawer = createDrawerNavigator();
 
