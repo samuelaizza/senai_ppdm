@@ -2,18 +2,18 @@
 export const musics = [
   {
     id: 1,
-    title: "Envolver",
-    artist: "Anitta",
+    title: "Chihiro",
+    artist: "Billie Eilish",
   },
   {
     id: 2,
-    title: "Mal Feito",
-    artist: "Hugo e Guilherme",
+    title: "GIRASSOL",
+    artist: "Ivyson",
   },
   {
     id: 3,
-    title: "Leão",
-    artist: "Marília Mendonça",
+    title: "Golden Hour",
+    artist: "JVKE",
   },
   {
     id: 4,

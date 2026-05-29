@@ -9,7 +9,7 @@ export default function Favoritos() {
     <View style={{ flex: 1, backgroundColor: "#121212", padding: 20 }}>
       
       <TouchableOpacity onPress={() => router.back()} style={{ marginTop: 40, marginBottom: 20 }}>
-        <Text style={{ color: "#1DB954", fontSize: 16 }}>⬅️ Voltar para Home</Text>
+        <Text style={{ color: "#ff0000", fontSize: 16 }}>⬅️ Voltar para Home</Text>
       </TouchableOpacity>
 
       <Text style={{ color: "#fff", fontSize: 28, fontWeight: "bold", marginBottom: 20 }}>

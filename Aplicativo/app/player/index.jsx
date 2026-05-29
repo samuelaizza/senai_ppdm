@@ -10,18 +10,18 @@ export default function Player() {
 
   const musicas = [
     {
-      title: "Mal Feito",
-      artist: "Hugo e Guilherme",
+      title: "GIRASSOL",
+      artist: "Ivyson",
     },
 
     {
-      title: "Erro Gostoso",
-      artist: "Simone Mendes",
+      title: "Golden Hour",
+      artist: "JVKE",
     },
 
     {
-      title: "Leão",
-      artist: "Marília Mendonça",
+      title: "Chihiro",
+      artist: "Billie Eilish",
     },
   ];
 
@@ -89,7 +89,7 @@ export default function Player() {
 
       <Text
         style={{
-          color: "#1DB954",
+          color: "#ff0000",
           marginTop: 20,
           fontSize: 18,
         }}
@@ -110,7 +110,7 @@ export default function Player() {
         >
           <Text
             style={{
-              color: "#1DB954",
+              color: "#ff0000",
               fontSize: 40,
             }}
           >
@@ -123,7 +123,7 @@ export default function Player() {
         >
           <Text
             style={{
-              color: "#1DB954",
+              color: "#ff0000",
               fontSize: 40,
             }}
           >
@@ -136,7 +136,7 @@ export default function Player() {
         >
           <Text
             style={{
-              color: "#1DB954",
+              color: "#ff0000",
               fontSize: 40,
             }}
           >

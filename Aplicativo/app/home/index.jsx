@@ -74,7 +74,7 @@ export default function Home() {
       </View>
       {/* ---------------------------- */}
 
-      <Text style={styles.appTitle}>BeatFlow</Text>
+      <Text style={styles.appTitle}>Beaters</Text>
 
       {/* Formulário Para Adicionar Música */}
       <View style={styles.formContainer}>
@@ -82,14 +82,14 @@ export default function Home() {
         <TextInput
           style={styles.input}
           placeholder="Nome da música..."
-          placeholderTextColor="#555"
+          placeholderTextColor="#ff0000"
           value={novoTitulo}
           onChangeText={setNovoTitulo}
         />
         <TextInput
           style={styles.input}
           placeholder="Nome do artista/banda..."
-          placeholderTextColor="#555"
+          placeholderTextColor="#ff0000"
           value={novoArtista}
           onChangeText={setNovoArtista}
         />
@@ -119,7 +119,7 @@ export default function Home() {
               </TouchableOpacity>
 
               <TouchableOpacity onPress={() => alternarFavorito(item)} style={{ padding: 10 }}>
-                <Text style={{ fontSize: 22, color: eFavorito ? "#1DB954" : "#666" }}>
+                <Text style={{ fontSize: 22, color: eFavorito ? "#b91d1d" : "#666" }}>
                   {eFavorito ? "❤️" : "🤍"}
                 </Text>
               </TouchableOpacity>
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     width: 36,
     height: 36,
     borderRadius: 18,
-    backgroundColor: "#1DB954",
+    backgroundColor: "#ff0000",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
   },
   // Estilo do botão de Sair
   logoutButton: {
-    backgroundColor: "#FF4444",
+    backgroundColor: "#22ff00",
     paddingHorizontal: 14,
     paddingVertical: 6,
     borderRadius: 15,
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   appTitle: {
-    color: "#1DB954",
+    color: "#ff0000",
     fontSize: 32,
     fontWeight: "bold",
     marginBottom: 10,
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   addButton: {
-    backgroundColor: "#1DB954",
+    backgroundColor: "#ffffff",
     height: 40,
     borderRadius: 20,
     justifyContent: "center",
@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   favoritesLink: {
-    color: "#1DB954",
+    color: "#ff0000",
     marginBottom: 20,
     fontSize: 16,
     fontWeight: "bold",

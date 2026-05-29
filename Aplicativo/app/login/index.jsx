@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,           
   },
   button: {
-    backgroundColor: '#1DB954', 
+    backgroundColor: '#ff0000', 
     height: 56,
     borderRadius: 28,           
     justifyContent: 'center',
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   linkText: {
-    color: '#1DB954',           
+    color: '#ff0000',           
     fontSize: 14,
     fontWeight: '500',
   },

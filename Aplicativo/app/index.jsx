@@ -24,7 +24,7 @@ export default function Login() {
     <View style={styles.container}>
       <StatusBar barStyle="light-content" backgroundColor="#121212" />
 
-      <Text style={styles.title}>BeatFlow</Text>
+      <Text style={styles.title}>Beaters</Text>
 
       <TextInput 
         style={styles.input} 
